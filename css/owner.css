@@ -1,0 +1,492 @@
+@import "base.css";
+/*选择开始*/
+.serch {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.serch-center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.serch-left {
+    float: left;
+    width: 870px;
+}
+
+.serch-content {
+    overflow: hidden;
+    height: auto;
+    width: 870px;
+}
+
+.serch-title {
+    height: 40px;
+    padding: 0px 25px;
+}
+
+.serch-title > span {
+    display: inline-block;
+    border-bottom: 1px dashed rgb(229, 229, 229);
+    line-height: 40px;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
+
+.serch-case {
+    float: right;
+}
+
+.serch-title i {
+    font-size: 12px;
+}
+
+.serch-case:hover {
+    color: rgb(255, 102, 0);
+}
+
+.serch-list {
+    height: 40px;
+    padding: 0px 25px;
+    line-height: 40px;
+}
+
+.serch-list li {
+    height: 100%;
+    font-size: 12px;
+    border-bottom: 1px dashed rgb(229, 229, 229);
+    position: relative;
+}
+
+.serch-list li p {
+    float: left;
+    color: rgb(153, 153, 153);
+    width: 80px;
+    height: 40px;
+    text-align: right;
+    padding: 0px 10px 0px 0px;
+}
+
+.serch-item {
+    float: left;
+    width: 700px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.serch-itemdo {
+    height: 80px;
+}
+
+.serch-item a {
+    display: block;
+    float: left;
+    color: #333;
+    margin-left: 20px;
+}
+
+.serch-list-icon {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    background: url("../image/up_01.jpg") no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.serch-list-icondo {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    background: url("../image/up_02.jpg") no-repeat 0 0;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.serch-limit {
+    color: rgb(255, 102, 0) !important;
+    font-weight: bold;
+}
+
+.serch-item a:hover {
+    color: rgb(230, 46, 53);
+}
+
+/*选择结束*/
+.diary {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.diary-list {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid #05B56A;
+}
+
+.diary-list p {
+    float: left;
+    margin-right: 3px;
+    font-size: 16px;
+    color: #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.diary-list-active {
+    color: #fff !important;
+    background: #05B56A;
+}
+
+.diary-list p:hover {
+    color: #fff !important;
+    background: #05B56A;
+}
+
+.diary-all, .diary-item {
+    width: 100%;
+    overflow: hidden;
+}
+
+.diary-item  {
+    margin-top: 30px;
+}
+
+.diary-left {
+    display: block;
+    float: left;
+    width: 240px;
+    height: 170px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.diary-left img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.diary-right, .diary-content {
+    width: 610px;
+    height: auto;
+    overflow: hidden;
+}
+
+.diary-content {
+    float: right;
+}
+
+.diary-onwer {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.diary-onwer img {
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.diary-title {
+    float: left;
+    display: block;
+    color: #009030;
+    width: 540px;
+    line-height: 30px;
+}
+
+.diary-type, .diary-end {
+    width: 540px;
+    height: auto;
+    overflow: hidden;
+}
+
+.diary-type li {
+    float: left;
+    margin-right: 40px;
+    font-size: 12px;
+    color: #333;
+    line-height: 16px;
+}
+
+.diary-word {
+    width: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -moz-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    font-size: 14px;
+    color: #333;
+    line-height: 26px;
+    padding: 10px 0px;
+}
+
+.diary-end li {
+    border-right: 1px solid #333;
+    float: left;
+    font-size: 12px;
+    color: #333;
+    margin: 5px 10px;
+    padding-right: 15px;
+}
+.diary-end li span{
+    margin-left: 3px;
+}
+
+.diary-end li:first-child {
+    margin-left: 0px;
+}
+
+/*右边内容开始*/
+.serch-right {
+    float: right;
+    width: 300px;
+}
+
+.serch-form {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 0 20px;
+    height: 418px;
+}
+
+.serch-safe {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #333;
+}
+
+.serch-safe-word {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    padding-top: 6px;
+}
+
+.serch-safe-word i {
+    color: #ff890b;
+}
+
+.serch-input {
+    margin-top: 10px;
+    height: 100px;
+}
+
+.serch-input input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    margin: 8px 0px;
+}
+
+.serch-have {
+    color: #999;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.serch-have i {
+    color: #f90;
+    margin: 0px 4px;
+}
+
+.serch-have label {
+    float: right;
+}
+
+.serch-have label input {
+    margin-right: 5px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.serch-button {
+    margin-top: 4px;
+    background: #ff890b;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    display: block;
+    line-height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.serch-button:hover {
+    background: #f74a0d;
+}
+
+.serch-free {
+    margin-top: 20px;
+    width: 300px !important;
+    font-size: 12px;
+}
+
+.serch-offer {
+    width: 100%;
+}
+
+.serch-offer li {
+    width: 83px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    margin-bottom: 10px;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.serch-offer li a {
+    color: #333;
+}
+
+.serch-offer li a i {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    display: block
+}
+
+.serch-offer-img1 {
+    background: url("../image/free_02.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img2 {
+    background: url("../image/free_04.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img3 {
+    background: url("../image/free_06.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img4 {
+    background: url("../image/free_08.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img5 {
+    background: url("../image/free_10.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img6 {
+    background: url("../image/free_02.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/*巧装家活跃设计师*/
+.live {
+    width: 100%;
+    height: 425px;
+    border: 1px solid #eee;
+}
+
+.live-title {
+    font-size: 18px;
+    border-left: 3px solid #d6162d;
+    padding-left: 10px;
+    margin: 20px;
+    color: #333;
+}
+
+.live-list {
+    width: 100%;
+    height: 360px;
+}
+
+.live-list li {
+    float: left;
+    width: 76px;
+    height: 94px;
+    margin: 0px 12px 20px;
+}
+
+.live-list li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.live-list li img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    margin-bottom: 6px
+}
+
+.live-list li img:hover {
+    border: 3px solid #ff890b;
+}
+
+.live-list li p {
+    text-align: center;
+    color: #333;
+    line-height: 12px;
+}
+
+/*设计师排行*/
+.live-item {
+    width: 100%;
+    height: 360px;
+}
+
+.live-item li {
+    overflow: hidden;
+    padding: 16px;
+    border-bottom: 1px dotted #d8d8d8;
+}
+
+.live-item li p {
+    background: #ccc;
+    float: left;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+
+.live-num {
+    background: #d6162d !important;
+}
+
+.live-item li span {
+    color: #888;
+}
+
+/*默认排序结束*/
